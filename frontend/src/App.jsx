@@ -14,7 +14,7 @@ function App() {
     setLoading(true);
 
     try {
-      const res = await fetch("http://localhost:5000/chat", {
+      const res = await fetch("https://skylark-ai-agent-backend.onrender.com/chat", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -53,7 +53,7 @@ function App() {
   return (
     <div className="container">
 
-      <h1>📊 Skylark Business Intelligence Agent</h1>
+      <h1> Skylark Business Intelligence Agent</h1>
 
       <p className="subtitle">
         AI-powered founder insights from live Monday.com data
@@ -66,19 +66,19 @@ function App() {
       <div className="quick-buttons">
 
         <button onClick={() => askQuestion("How is our Mining pipeline?")}>
-          📈 Mining Pipeline
+           Mining Pipeline
         </button>
 
         <button onClick={() => askQuestion("Generate a leadership update")}>
-          📋 Leadership Update
+           Leadership Update
         </button>
 
         <button onClick={() => askQuestion("Which sector has the highest pipeline?")}>
-          🏆 Highest Pipeline
+           Highest Pipeline
         </button>
 
         <button onClick={() => askQuestion("Show delayed work orders")}>
-          ⚠️ Delayed Orders
+           Delayed Orders
         </button>
 
       </div>
@@ -96,7 +96,7 @@ function App() {
       />
 
       <button onClick={() => askQuestion()}>
-        {loading ? "🔄 Analyzing Business Data..." : "🚀 Ask AI"}
+        {loading ? "🔄 Analyzing Business Data" : " Ask AI"}
       </button>
 
       <div className="response">
