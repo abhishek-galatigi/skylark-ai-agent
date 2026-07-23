@@ -153,7 +153,40 @@ hr{
     margin:8px 0 0;
     text-align:left;
 }
+.ai-message h1{
+    font-size:28px;
+    color:#0f62fe;
+    margin-bottom:15px;
+}
 
+.ai-message h2{
+    font-size:22px;
+    color:#222;
+    margin-top:20px;
+    margin-bottom:10px;
+}
+
+.ai-message h3{
+    font-size:18px;
+    margin-top:15px;
+}
+
+.ai-message p{
+    line-height:1.7;
+    color:#333;
+}
+
+.ai-message ul{
+    padding-left:20px;
+}
+
+.ai-message li{
+    margin-bottom:8px;
+}
+
+.ai-message strong{
+    color:#0f62fe;
+}
 .ai-message{
     background:#f8fbff;
     border-left:5px solid #0f62fe;
