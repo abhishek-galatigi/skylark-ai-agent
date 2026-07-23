@@ -103,8 +103,8 @@ Business Insights
 Backend requires:
 
 ```
-MONDAY_API_TOKEN=YOUR_TOKEN
-GROQ_API_KEY=YOUR_GROQ_KEY
+MONDAY_API_TOKEN=apitoken
+GROQ_API_KEY=apikey
 ```
 
 ---
